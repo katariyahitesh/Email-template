@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box:border-box;
+}
+.logo{
+    text-align: center;
+    margin-top: 20px;
+}
+.hero{
+     max-width: 544px;   
+     width: 100%;
+     margin: 0 auto;
+     text-align: center;
+
+}
+.title{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.heroContainer{
+    height: 360px; ;
+    max-width:504px ;
+    width: 100%;
+   background-image: url("img1.jpg");
+   background-size: cover;
+   background-position: center;
+
+}
+.Text{
+    max-width:504px ;
+    width: 100%;
+}
+.button{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+/* section1/ section_2section3 */
+
+ .section_1,.section_3,.section_2{
+   max-width: 600px;
+   width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+ }
+ .card_1,.card_3{
+    display: flex;
+    gap: 15px;
+    flex: 1 1 0%;
+ }
+ .card_2{
+    display: flex;
+    gap: 15px;
+   flex: 1 1 0%;
+   flex-direction:row-reverse ;
+}
+ .Image_1,.Image_3,.Image_2{
+  
+    max-width: 260px;
+    width: 100%;
+ }
+ .img_1,.img_2,.img_3{
+    width: 100%;
+    
+
+ }
+ .Text_1,.Text_3,.Text_5{
+    margin-top: 20px;
+    max-width: 284px;
+    width: 100%;
+    
+ }
+ .Text_2,.Text_3,.Text_4{
+    max-width: 260px;
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+ }
+ .button_1,.button_2,.button_3{
+    display: flex;
+    justify-content: center; 
+    margin-top: 10px; 
+    text-align: left;
+
+ }
+ 
+ .Text_section{
+   display: flex;
+   justify-content: center;
+ } 
+.footer{
+   max-width: 544px;   
+   width: 100%;
+   margin: 0 auto;
+   text-align: center;
+}
+.footercontent{
+
+   width: 100%;
+}
+.info{
+  
+   width: 100%;
+   
+}
+.infoContainer{
+   margin-top: 20px;
+   max-width: 600px;
+   width: 100%;
+   text-align: center;
+}
+.Paregraf{
+   max-width: 100%;
+   width: 100%;
+   text-align: center;
+}
+.socialContainer{
+   max-width:  600px ;
+   width: 100%;
+   margin-top: 10px;
+   display: flex;
+   justify-content: space-evenly;
+}
